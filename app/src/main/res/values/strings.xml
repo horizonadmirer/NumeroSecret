@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NumeroSecret</string>
+    <string name="etiquetaBenvinguda">Benvingut/da a aquesta app! Ara, has d'endivinar el número secret</string>
 </resources>
