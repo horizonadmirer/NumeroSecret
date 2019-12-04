@@ -78,7 +78,7 @@
         android:layout_marginStart="130dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="130dp"
-        android:text="Temps restant: ---"
+        android:text="@string/tempsRestant"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
