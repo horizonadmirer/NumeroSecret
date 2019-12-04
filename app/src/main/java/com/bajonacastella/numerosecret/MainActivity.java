@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.NumberPicker;
 import android.widget.Toast;
 
 import java.util.Random;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText edNumUsuari;
     private boolean numeroEndevinat = false;
     private Button btnJugar;
+    private NumberPicker npTemps;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
         edNumUsuari = findViewById(R.id.edNumUsuari);
         btnJugar = findViewById(R.id.btnJugar);
+        npTemps = findViewById(R.id.npTemps);
+        npTemps.setMinValue(10); npTemps.setMaxValue(60);
 
         //Generem un número aleatori entre 0 i 1000 amb el Random que ens dona Java.
         Random ns = new Random();

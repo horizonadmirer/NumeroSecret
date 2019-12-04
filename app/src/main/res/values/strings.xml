@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">NumeroSecret</string>
-    <string name="etiquetaBenvinguda">Benvingut/da a aquesta app! Ara, has d\'endivinar el número secret</string>
+    <string name="etiquetaBenvinguda">Benvingut/da a aquesta app! \n Ara, has d\'endivinar el número secret</string>
     <string name="hintEdTxt">0-1000</string>
     <string name="endavinaBoto">Endevinar</string>
+    <string name="establirComptador">Establir temps</string>
 </resources>
