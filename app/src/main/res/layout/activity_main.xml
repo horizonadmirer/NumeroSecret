@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/txBenvinguda"
+        android:id="@+id/txtBenvinguda"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
@@ -41,12 +41,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="125dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="125dp"
         android:backgroundTint="#FFF200"
         android:onClick="botoEndevinar"
         android:text="@string/endavinaBoto"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edNumUsuari" />
 
@@ -55,12 +56,13 @@
         android:layout_width="0dp"
         android:layout_height="3dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="15dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnJugar" />
+        app:layout_constraintTop_toBottomOf="@+id/txtFeedback" />
 
     <NumberPicker
         android:id="@+id/npTemps"
@@ -82,7 +84,7 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txBenvinguda" />
+        app:layout_constraintTop_toBottomOf="@+id/txtBenvinguda" />
 
     <Button
         android:id="@+id/btnEstablirTemps"
@@ -90,8 +92,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="95dp"
         android:layout_marginEnd="50dp"
+        android:onClick="establirTemps"
         android:text="@string/establirComptador"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <TextView
+        android:id="@+id/txtFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnJugar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
