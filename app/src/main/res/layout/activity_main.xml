@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--
+        LLIURAMENT FINAL DE LA APP "NÚMERO SECRET",
+        DISSENYADA I PROGRAMADA PER MARC BAJONA i ESTER CASTELLÀ.
+     -->
+
     <TextView
         android:id="@+id/txtBenvinguda"
         android:layout_width="0dp"
