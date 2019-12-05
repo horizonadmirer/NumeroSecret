@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             btnEstablirTemps.setEnabled(false);
+            npTemps.setEnabled(false);
         }
 
         @Override
